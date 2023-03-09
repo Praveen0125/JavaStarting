@@ -9,6 +9,7 @@ public class Car extends Vehicle{
 //        b.mileage = m;
         b.move();
         b.display(w,m);
+        b.speed();                  //  we can't use method inside bike class here like speed for that we need multilevel inheritance
         Car c = new Car();
         c.move();
         c.display(4,40000);
